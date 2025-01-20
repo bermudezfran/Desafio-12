@@ -97,3 +97,24 @@ li {
     display: block;
   }
 }
+
+@media (min-width: 577px) and (max-width: 768px) {
+  nav ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  nav ul li {
+    margin: 5px 0;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  nav ul {
+    display: flex;
+    flex-direction: row;
+  }
+  nav ul li {
+    margin: 0 10px;
+  }
+}

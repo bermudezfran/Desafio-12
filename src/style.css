@@ -2,7 +2,11 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+body {
+  width: 100%;
 }
 
 header {
@@ -10,7 +14,7 @@ header {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding: .5em;
+  padding: 0.5em;
   width: 100%;
 }
 
@@ -26,13 +30,13 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 2em;
-} 
+}
 
 ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 5em
+  gap: 5em;
 }
 
 li {
@@ -41,7 +45,7 @@ li {
 }
 
 li {
-  color: #FFF;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -61,9 +65,8 @@ li {
   padding: 2em;
 }
 
-
 .logo {
-  background-color: #FFF;
+  background-color: #fff;
   border-radius: 1em;
   padding: 1em;
 }
@@ -74,6 +77,23 @@ li {
 }
 
 .link-header {
-  color: #FFF;
+  color: #fff;
   text-decoration: none;
+}
+
+.menu-btn {
+  display: none;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 576px) {
+  nav ul {
+    display: none;
+  }
+  .menu-btn {
+    display: block;
+  }
 }

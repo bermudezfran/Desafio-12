@@ -1,6 +1,3 @@
-/* ===================== */
-/*     Estilos base      */
-/* ===================== */
 body {
     margin: 0;
     padding: 0;
@@ -38,7 +35,7 @@ body {
   }
   
   .boton-compra {
-    background-color: #007bff;
+    background-color: #f96060;
     color: #fff;
     border: none;
     padding: 10px 16px;
@@ -46,7 +43,7 @@ body {
     cursor: pointer;
   }
   .boton-compra:hover {
-    background-color: #0056b3;
+    background-color: #ec3d3d;
   }
   
   
